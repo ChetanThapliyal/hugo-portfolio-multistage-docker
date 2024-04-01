@@ -3,7 +3,7 @@
 This project showcases how to optimize Docker images for a Hugo website (portfolio) using multi-stage builds. It highlights the benefits of smaller image sizes and streamlined deployments.
 
 ## Difference in image size of Normal (dev) and Multistage build (prod)
-![difference_in_image_size](https://github.com/ChetanThapliyal/hugo-portfolio-multistage-docker/assets/27846635/f664a2c2-2ccb-40df-9870-4851c4f0c313)
+![difference_in_image_size](https://github.com/ChetanThapliyal/hugo-portfolio-multistage-docker/blob/main/src/difference_in_image_size.png)
 
 - Image size reduces from `424.01 MB` to `55.25 MB`, for production environment that is a massive reduction of almost `~88%`.
 
