@@ -2,6 +2,10 @@
 
 This project showcases how to optimize Docker images for a Hugo website (portfolio) using multi-stage builds. It highlights the benefits of smaller image sizes and streamlined deployments.
 
+## Difference in image size of Normal (dev) and Multistage build (prod)
+![difference_in_image_size](https://github.com/ChetanThapliyal/hugo-portfolio-multistage-docker/assets/27846635/f664a2c2-2ccb-40df-9870-4851c4f0c313)
+
+
 ## Key Features
 
 * **Multi-Stage Efficiency:** The `Dockerfile.prod` employs a multi-stage build process to separate development dependencies from the final, lean deployment image. 
