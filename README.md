@@ -22,12 +22,12 @@ This project showcases how to optimize Docker images for a Hugo website (portfol
 
 2. Build the optimized image (for production):
    ```bash
-   docker build -t hugo-portfolio:latest -f Dockerfile.prod .
+   docker build -f Dockerfile.prod -t hugo-portfolio-prod:prod .
    ```
 
 3. Run the container:
    ```bash
-   docker run -d -p 8080:80 hugo-portfolio:latest
+   docker run -d -p 8080:80 hugo-portfolio:prod
    ```
 
 4. Access your portfolio site at http://localhost:8080
