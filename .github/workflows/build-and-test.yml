@@ -1,0 +1,21 @@
+name: Build and Test Hugo Image
+
+on: 
+  push:
+    branches: [ main ]  # You can customize the triggering event
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest  # OS to run the job on
+
+    steps:
+      - uses: actions/checkout@v3  # Check out the code 
+
+      - name: Build Hugo Docker Image
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: Dockerfile.prod  
+          tags: hugo-portfolio:latest
+
+      # (We'll add steps for testing later)
