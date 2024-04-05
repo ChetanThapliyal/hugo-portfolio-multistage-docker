@@ -5,7 +5,7 @@ This project showcases how to optimize Docker images for a Hugo website (portfol
 ## Difference in image size of Normal (dev) and Multistage build (prod)
 ![difference_in_image_size](https://github.com/ChetanThapliyal/hugo-portfolio-multistage-docker/blob/main/src/difference_in_image_sizes.png)
 
-- Image size reduces from `424.01 MB` to `55.25 MB`, for production environment that is a massive reduction of almost `~88%`.
+- Image size reduces from `424.01 MB` to `55.25 MB`, for production environment that is a massive reduction of almost `~88%`. 
 
 ## Key Features
 
